@@ -1,0 +1,75 @@
+.container{
+  /* max-width: 1590px; */
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.dashboard{
+  background: rgb(49,110,179);
+background: linear-gradient(253deg, rgba(49,110,179,1) 0%, rgba(255,255,255,1) 100%);
+  padding-top: 20px;
+  height: 100%;
+
+}
+
+.charts{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.pieChartOne {
+  /* animation: rotate 20s linear infinite; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.attendance-div {
+  /* animation: rotate 20s linear infinite; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.finish-div{
+  /* animation: rotate 20s linear infinite; */
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.finish{
+  display: flex;
+  /* margin-right: -112px;
+  margin-top: -20px; */
+}
+.recharts-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+

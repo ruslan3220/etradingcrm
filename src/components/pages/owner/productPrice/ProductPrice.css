@@ -1,0 +1,332 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.product{
+  width: 250px;
+  height: 350px;
+  border:solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  color: gray;
+}
+.productImg{
+  width: 230px;
+  height: 230px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.productName{
+  margin-top: 10px;
+  width: 220px;
+  font-size: 18px;
+  height: 50px;
+  color: black;
+}
+.productPrice{
+  margin-top: 10px;
+  width: 200px;
+  color: goldenrod;
+  font-size: 22px;
+}
+.pdpContainer{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.PdpLink{
+  text-decoration: none;
+  margin: 10px;
+}
+.pdpImg{
+  width: 350px;
+  height: 350px;
+  /* border: 1px solid; */
+  box-shadow:
+  0 0 10px rgba(0, 0, 0, 0.5),
+  0 0 20px rgba(0, 0, 0, 0.3),
+  0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.pdpName{
+  font-size: 23px;
+  color: #173F77;
+}
+.pdpItem{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.pdpList{
+  font-size: 20px;
+  width: 400px;
+}
+.pdpListItem{
+  font-size: 20px;
+  color: #173F77;
+}
+.pdpDescription{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  font-size: 18px;
+}
+.pdpInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.PdpNumber{
+  margin: 0px;
+  margin-top: 20px;
+  outline: none;
+}
+.pdpTotalPrice{
+  margin-top: 10px;
+  font-size: 22px;
+  color: rgb(232, 170, 11);
+}
+.products{
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.productsItem{
+  width: 1200px ;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.input__divBlue{
+  background-color: #173F77 ;
+  width: 1249px;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+
+}
+
+.currentDateTime{
+  margin-right: 10px;
+  font-size: 20px;
+  color: #FFF;
+}
+p.currentTime{
+  color: white;
+}
+p.currentDate{
+  color: white;
+}
+.WhiteBtns{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 50px;
+}
+.btnAddSale{
+  background-color: white;
+  border: none;
+  padding: 15x 20px;
+  width: 80px;
+  height: 35px;
+  color: #173F77;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnAddWhite{
+  background-color: white;
+  border: none;
+  padding: 15x 20px;
+  width: 80px;
+  height: 35px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.txtAddBlue{
+  color: #173F77;
+  font-size: 18px;
+}
+.FaPlusColor{
+  color: #173F77;
+}
+.pdpDescription{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.Pdp{
+  display: flex;
+}
+.PdpPrice{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #173F77;
+}
+.pdpListItemDetails{
+  display: flex;
+  flex-direction: column;
+}
+.pdpList{
+  color: #173F77;
+}
+.pdpListItem{
+  margin-bottom: 5px;
+}
+.PdpInformation{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #173F77;
+
+}
+.PdpListDetails{
+  display: flex;
+  flex-direction: column;
+}
+.PdpInputs{
+  display: flex;
+  flex-direction: column;
+
+}
+.PdpInputPhoto{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  font-size: 20px;
+}
+.photoInput{
+  margin: 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.selectionInput{
+  width: 200px;
+  display: flex;
+
+}
+.selectionInputSearch , .selectionInputSelect{
+  margin: 0;
+  width: 100px;
+  font-size: 18px;
+  outline: none;
+}
+.ProductAmountInput{
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  width: 200px;
+}
+.ProductinputBtns{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.removeInputBtn{
+  width: 60px;
+  height: 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+  color: #ffffff;
+}
+
+
+/* .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+} */
+
+.SaleModal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.SaleModalContent{
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 500px) {
+  .input__divBlue{
+    width: 500px;
+  }
+  .products{
+    width: 500px;
+  
+  }  
+  .btnAddWhite{
+    margin-right: 20px;
+  }
+  }
+  .ProductBtns{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .PdpInputPhoto{
+    margin-top: 10px;
+  }
+  .PdpListDetails{
+    margin: 0;
+  }
+  .photoInput{
+    width: 200px;
+  }
+  .selectionInput{
+    margin-top: 25px;
+   
+  }
+
+

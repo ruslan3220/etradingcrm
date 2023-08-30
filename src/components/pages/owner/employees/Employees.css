@@ -1,0 +1,1600 @@
+.th__title{
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  width: 1250px;
+  background-color: #173F77;
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+  margin-left: -1px;
+  box-sizing: border-box;
+}
+ 
+.employeesTable{
+  /* margin-left: -0.5px; */
+  margin-top: -1px;
+  display: flex;
+  width: 100%;
+  
+  
+}
+
+.tr__title{
+  /* text-align: center; */
+  display: flex;
+  justify-content:space-between ;
+  /* align-items: center; */
+  text-align: center;
+  width: 1249px;
+  /* width: 100%; */
+  font-size: 18px;
+  /* padding: 15px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.tr__title:nth-child(2n){
+  background-color: rgb(223, 223, 223);
+}
+
+td{
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 20px; */
+  /* width: 100%; */
+  text-align: center;
+
+}
+table{
+  /* border: 0.5px solid; */
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 1200px;
+  /* padding-right: 20px; */
+
+}
+
+td.thItem{
+  width: 200px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.thItemName{
+  width: 170px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.thItemPosition{
+  width: 120px;
+}
+.thItemPhone{
+  width: 130px;
+}
+.thItemSalary{
+  width: 90px;
+}
+.thItemAvans{
+  width: 90px;
+}
+.thItemLateHours{
+  width: 80px;
+}
+.thItemMainWork{
+  width: 60px;
+}
+.thItemExtraWork{
+  width: 100px;
+}
+
+.thItemRole{
+  width: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.thItemAmount{
+  width: 150px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.thItemDescription{
+  width: 250px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.thItemDetails{
+  width: 200px;
+}
+
+.thItemDeadline{
+  width: 120px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.thItemPrice , .thItemTotalPrice{
+  width: 150px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.thItem
+.action{
+  margin-right: 10px;
+  width: 80px;
+}
+
+td.trItem{
+  width: 200px;
+  /* border: 1px solid; */
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.trItemName{
+  width: 170px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.trItemPosition{
+  width: 120px;
+}
+.trItemPhone{
+  width: 130px;
+}
+.trItemSalary{
+  width: 90px;
+}
+.trItemAvans{
+  width: 90px;
+}
+.thItemSalaryDetails{
+  width: 150px;
+}
+.trItemLateHours{
+  width: 80px;
+}
+.trItemMainWork{
+  width: 60px;
+}
+.trItemExtraWork{
+  width: 100px;
+}
+.trItemRole{
+  width: 100px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: space-between;
+}
+.trItemAmount{
+  width: 100px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.trItemDescription{
+  width: 250px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.trItemPrice{
+  width: 150px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: start;
+}
+.trItemTotalPrice{
+  width: 150px;
+  display: flex;
+  text-align: center;
+  /* border: solid 1px; */
+  justify-content: start;
+}
+.trItemDeadline{
+width: 120px;
+display: flex;
+text-align: center;
+/* border: solid 1px; */
+justify-content: space-between;
+}
+
+
+.trItemBtns{
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  margin-right: 20px ;
+}
+
+td.trItemComment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 200px;
+  padding: 8px 20px;
+  margin-left: 50px;
+  border: 1px solid lightgrey;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 20px;
+}
+.input__div{
+  background-color: lightgray;
+  width: 1249px;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+
+}
+.statistics{
+  background-color: lightgray;
+  width: 1249px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.profit{
+  color:  green;
+  font-size: 30px;
+}
+.spend{
+  color: red;
+  font-size: 30px;
+}
+.inputDate{
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.currentTime{
+  margin-right: 10px;
+  font-size: 20px;
+  color: #173F77;
+}
+.currentDate{
+  font-size: 20px;
+  color: #173F77;
+}
+.currentDateTime{
+  display: flex; align-items: center;
+}
+.attendanceBtns{
+  display: flex;
+
+}
+.btnAdd, .btnEdit{
+  border: none;
+  background-color: #173F77 ;
+  padding: 15x 20px;
+  margin-right: 30px;
+  width: 80px;
+  height: 35px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.txtAdd{
+  font-size: 18px;
+}
+.searchInput{
+  width: 250px;
+  outline: none;
+}
+
+td.trItem.giCancelIcon{
+  color: red;
+}
+svg{
+  color: red ;
+}
+.editBtn{
+  color: cornflowerblue;
+  border: none;
+  background-color: rgba(255, 255, 255, 0) ;
+
+  cursor: pointer; 
+  font-size: 20px;
+  margin-right: 10px;
+}
+.deleteBtn{
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #173F77;
+  margin-top: 30px;
+}
+.pagination-item{
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 1px;
+  padding: 4px 10px 8px 10px;
+  
+}
+.pagination-item:hover{
+  opacity: 0.6;
+}
+.pagination-item-active{
+  color: #ffffff;
+  background-color: #173F77;
+}
+
+
+
+
+
+
+/* @-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+} 
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+} */
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.del-modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 250px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-del{
+
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatedel;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatedel;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatedel {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatedel {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.close-del {
+  color: red;
+  float: right;
+  margin-right: 10px;
+  margin-top: -25px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.close-del:hover,
+.close-del:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.ha-btn{
+  padding: 8px 16px;
+  width: 70px;
+  border: 1px solid red;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: red;
+  border-radius: 6px;
+  text-align: center;
+  vertical-align: center;
+}
+.ha-btn:hover{
+  opacity: 0.7;
+}
+
+.yoq-btn{
+  padding: 8px 16px;
+  width: 70px;
+  border: 1px solid green;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: green;
+  border-radius: 6px;
+  text-align: center;
+  vertical-align: center;
+}
+.yoq-btn:hover{
+  opacity: 0.8;
+}
+
+
+
+.del-div{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Edit */
+
+.edit-form{
+  width: 500px;
+}
+
+.edit-modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 250px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-edit{
+
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatedel;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatedel;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatedel {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatedel {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.close{
+  color: #000;
+}
+.close-edit {
+  color: red;
+  color: #000;
+  float: right;
+  margin-right: 10px;
+  margin-top: -25px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.close-edit:hover,
+.close-edit:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.edit-btn{
+  padding: 8px 16px;
+  width: 90px;
+  border: 1px solid red;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: red;
+  border-radius: 6px;
+  text-align: center;
+  vertical-align: center;
+}
+.edit-btn:hover{
+  opacity: 0.7;
+}
+
+
+.edit-form{
+  display: flex;
+  gap: 20px;
+}
+
+/* delmodal  */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+  top: 10%;
+}
+
+.modals {
+  
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modals-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 0 auto;
+  padding: 0;
+  top: 60px;
+  border: 1px solid #888;
+  width: 650px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.modalForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.modalFormLabel{
+  font-size: 25px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+.addEmployeeTxt{
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #173F77;
+
+}
+
+.modalFormInput{
+  outline: none;
+}
+.modalFormSelection{
+  height: 40px;
+  width: 200px;
+  outline: none; 
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+  padding: 7px 15px;
+  font-size: 20px;
+}
+.modalFormBtn{
+  background-color: #173F77;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+}
+.deleteModalTxt{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.deleteModalYes{
+  background-color: red;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.deleteModalNo{
+  background-color: #173F77;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fffff9;
+  padding: 40px;
+  border-radius: 15px;
+  
+}
+
+.modal-content h2 {
+  margin-bottom: 40px;
+}
+
+.modal-content input {
+  padding: 5px;
+}
+
+.modal-content button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #173F77;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/* Yoqlama edit  */
+
+
+.modald {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modald-content {
+  background-color: #fffff9;
+  padding: 40px;
+  border-radius: 15px;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Batafsil Modal */
+
+
+.modalbat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalbat-content {
+  background-color: #fff;
+  width: 550px;
+  height: 400px;
+  overflow-y: auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modalbat h2 {
+  margin-top: 0;
+}
+
+.modalbat p {
+  margin-bottom: 10px;
+}
+
+.modalbat button {
+  margin-top: 10px;
+}
+
+.salaryDetails  {
+  width: 70px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #173F77;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.SalaryBtn {
+  width: 50px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #173F77;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.AvansBtn{
+  width: 60px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #173F77;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.AddSalaryBtns{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.currentDateADDSALARY{
+  margin-right: 70px;
+}
+
+.avansTotals, .userSalary{
+  font-size: 25px;
+}
+.SalaryDebtModal{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.NameUser{
+  color: #173F77;
+  margin-bottom: 20px;
+}
+.SalaryModalSaveBtn, .SalaryModalCloseBtn{
+   width: 80px;
+   height: 30px;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: #173F77;
+   color: #ffffff;
+}
+.SalaryModalBtns{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.AvansModalListName{
+  color: #173F77;
+}
+
+.AvansListItemNum{
+  margin-right: 10px;
+}
+.AvansListItemTxtDescriptiom{
+  width: 150px;
+}
+.AvansListItemTxt + .AvansListItemTxt{
+  margin-left: 30px;
+}
+.AvansList{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.AvansListItem{
+  display: flex;
+  margin-top: 10px;
+}
+
+
+/* ATTENDANCE MODALS */
+
+.AttdendanceInputs{
+  display: flex;
+  flex-direction: column;
+}
+.AttendanceInputItems{
+  height: 50px;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+.AttendanceInputName{ 
+  color: #173F77;
+    text-align: start;
+    width: 120px;
+    color: "#173F77"; 
+}
+.AttendanceCheckboxInput{
+  width: 20px;
+  height: 20px;
+}
+.AttendanceLateHoursInput{
+  width: 100px;
+  outline: none;
+}  
+.AttendanceExtraWorkInput{
+  width: 100px;
+  outline: none;
+}
+.AttendanceInputHeading{
+  color: #173F77;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.AttendanceModalSaveBtn , .AttendanceModalCloseBtn {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.AttendanceEditSaveBtn , .AttendanceEditCloseBtn{
+  font-size: 15px;
+  background-color: #173F77;
+  border: none;
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  color: #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.ProductSelection{
+  display: flex;
+}
+
+.ProductSelectionSearch{
+  width: 120px;
+  border: none;
+  outline: none;
+}
+.ProductSelectionSelect{
+  width: 120px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  overflow: auto;
+  /* overflow-y: auto; */
+  height: 50px;
+}
+.ProductSelectionOption{
+  outline: none;
+
+}
+.ProductBtns{
+  margin-right: 50px;
+}
+.TextAreaDescription{
+  font-size: 22px;
+  width:240px !important ;
+  height: 120px;
+}
+
+.modaluser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  height: 500px;
+  width: 550px;
+  overflow-y: auto;
+}
+.ModalUserName{
+  font-size: 25px;
+  color: #173F77;
+}
+
+.modalUserInfo{
+  width: 350px;
+}
+
+.modalUserInfoSpan{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #173F77;
+}
+.modalUserInfoName{
+  color: black;
+}
+.selectedDate{
+  color: #173F77;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.modalUserAttendanceContent{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.ModalUserInfoAttendance{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ModalUserAttendanceSpan{
+  font-size: 20px;
+}
+
+
+/* Responsive Design */
+
+
+
+
+@media screen and (max-width: 1360px) {
+  .container {
+    width: 1338px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1130px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .container {
+    width: 1328px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1120px;
+  }
+  .profit, .spend{
+    font-size: 2px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .container {
+    width: 1318px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1110px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 1308px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1100px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .container {
+    width: 1298px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1090px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1310px) {
+  .container {
+    width: 1288px;
+  }
+  .table,
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1080px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 1278px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1070px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 1278px;
+  }
+  /* .table, */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1070px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .container {
+    width: 1268px;
+  }
+  /* .table{
+    width: 800px;
+  } */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1060px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .container {
+    width: 1240px;
+  }
+  /* .table{
+    width: 900px;
+  } */
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1040px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .container {
+    width: 1228px;
+  }
+  
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1040px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+  /* .table{
+    width: 800px;
+  } */
+}
+@media screen and (max-width: 1230px) {
+  .container {
+    width: 1208px;
+  }
+
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1020px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .container {
+    width: 1188px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 1000px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .container {
+    width: 1168px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 970px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .container {
+    width: 1148px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 960px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+
+}
+@media screen and (max-width: 1170px) {
+  .container {
+    width: 1120px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 980px;
+  }
+  .profit, .spend{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 1100px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .container {
+    width: 1070px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics,
+  .input__div {
+    width: 940px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .dashboard{
+    width: 500px;
+  }
+  .sidebar{
+    display: none;
+  }
+.routerContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+table{
+  width: 500px;
+}
+table.thead{
+  width: 500px;
+}
+table.tbody{
+  width: 500px;
+}
+.th__title{
+  align-items: center;
+  padding: 10px;
+}
+.tr__title{
+  align-items: center;
+  padding: 10px;
+}
+.thItemName , .trItemName{
+  width: 80px;
+}
+.thItemPosition ,  .trItemPosition{
+  width: 80px;
+}
+.thItemDescription , .trItemDescription{
+  margin-left: 10px;
+  width: 100px;
+  margin-right: 10px;
+}
+.thItemAmount , .trItemAmount{
+  width: 60px;
+  margin-right: 5px;
+}
+.thItemDetails{
+  width: 100px;
+}
+
+.trItemSalary{
+  width: 90px;
+
+}
+.thItemAvans , .trItemAvans{
+  width: 90px;
+}
+
+.thItemPrice , .trItemPrice{
+  width: 80px;
+}
+.thItemTotalPrice , .trItemTotalPrice{
+  width: 90px;
+}
+.thItemExtraWork, .trItemExtraWork{
+  width: 75px;
+}
+.trItemBtns{
+  width: 50px;
+  margin: 0;
+}
+
+.thItem.b{
+  font-size: 12px;
+}
+td{
+  font-size: 14px;
+}
+.profit{
+  font-size: 15px;
+}
+.spend{
+  font-size: 15px;
+}
+  .container {
+    width: 499px;
+  }
+  .th__title,
+  .tr__title,
+  .statistics {
+    width: 499px;
+  }
+  .input__div{
+    display: flex;
+    /* flex-direction: column; */
+    width: 499px;
+  }
+  .searchInput{
+    margin-left: 20px;
+    width: 150px;
+    font-size: 16px;
+  }
+  input{
+    font-size: 15px;
+    width: 150px;
+    margin: 0;
+    margin-right: 20px;
+  }
+  .inputDate{
+    width: 150px;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .currentDateTime{
+    display: none;
+  }
+  .modaluser{
+
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  .ModalUserName{
+    font-size: 20px;
+    color: #173F77;
+  }
+  
+  .modalUserInfo{
+    width: 350px;
+  }
+  
+  .modalUserInfoSpan{
+    font-size: 16px;
+    color: #173F77;
+  }
+  .modalUserInfoName{
+    color: black;
+  }
+  .selectedDate{
+    color: #173F77;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .ModalUserInfoAttendance{
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .ModalUserAttendanceSpan{
+    font-size: 16px;
+  }
+  .modals-content{
+    width: 480px;
+  }
+  .modalForm{
+    width: 450px;
+  }
+  .modalFormLabel{
+    width: 380px;
+    font-size: 20px;
+  }
+  .modal-content{
+    width: 480px;
+  }
+  .MainSidebar{
+    width: 450px;
+  }
+  .attendanceBtns{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnAdd, .btnEdit{
+    width: 60px;
+    margin: 0px;
+    margin-right: 15px;
+  }
+  .AddSalaryBtns{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .salaryDetails , .SalaryBtn{
+    margin-bottom: 5px;
+  }
+
+  .edit-btn{
+    margin: 0;
+  }
+  .deleteBtn{
+    margin: 0;
+  }
+  .input__divBlue{
+    width: 500px;
+  } 
+  .products{
+    width: 500px;
+  }
+  .productsItem{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .pdpItem{
+    padding-left: 0px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pdp{
+    display: flex;
+    flex-direction: column; 
+  }
+  .Pdp{
+    display: flex;
+    flex-direction: column;
+  }
+  .PdpListDetails{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .pdpContainer{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+   }
+   .productListDetails{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .PdpInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .PdpInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+   }
+   .PdpNumber{
+    margin-bottom: 20px;
+   }
+   .PdpInputs.div{
+    width: 250px;
+   }
+   .PdpInputPhoto{
+    width: 250px;
+   }
+   .PdpPrice{
+    font-size: 20px;
+   }
+   .pdpDescription{
+    font-size: 18px;
+    margin-bottom: 5px;
+   }
+   /* b{
+    font-size: 18px;
+   } */
+}
+
+
+
+
+
+/* modal user  */
+
+.modaluser {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.modaluser h3 {
+  margin: 0;
+}
+.modaluser p {
+  margin: 0;
+}
+.modaluser input {
+  margin-top: 10px;
+}
+.modaluser button {
+  margin-top: 10px;
+}
